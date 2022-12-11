@@ -120,6 +120,9 @@ if __name__ == '__main__':
     basedir=os.getcwd()
     propfile=f"{basedir}/my.prop"
     outdir=f"{basedir}/output"
+    if not os.path.exists(outdir):
+        # Create a new directory because it does not exist
+        os.makedirs(outdir)
     k = kafkautil(propfile,outdir)
     count = k.doWork(startts,endts)
     k.close()
