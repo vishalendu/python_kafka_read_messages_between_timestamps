@@ -24,7 +24,7 @@ KAFKA_IP = host:port for a kafka broker
 TOPIC = name of topic  
 OUTFILE = where you want the message to be dumped  
   
-On line number 118,119
+On line number 118,119 inside kafkautil.py file
 ```
 118     startts = os.environ.get('START_DATE', '2022-12-11T15:00:12')
 119     endts = os.environ.get('END_DATE', '2022-12-11T16:10:12')
