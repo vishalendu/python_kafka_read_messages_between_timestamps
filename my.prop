@@ -1,0 +1,4 @@
+[kafka]
+KAFKA_IP=localhost:29092
+TOPIC=sample
+OUTFILE=kafka_messages.csv
