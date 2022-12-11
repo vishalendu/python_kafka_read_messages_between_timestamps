@@ -10,7 +10,7 @@ However, I dont want to read all messages from the begining of time so I need co
   
    
    
-## How to run the code?  
+## How to update configs required for the code?  
 look at my.prop file for some configurations. You have to update these configurations:
 ```
 [kafka]
